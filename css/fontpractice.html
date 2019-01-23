@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fonts</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Fonts Demo Page</h1>
+
+    <p>node.js 可以运行在 Linux、Windows 和 Macintosh 等<span>主流的操作系统</span>上。在 Windows 平台上运行 node.js 的话，需要 Cygwin 或是 MinGW
+        的支持。下面以常用的
+        Windows 平台为例来说明。首先需要安装 Cygwin。安装的时候需要选择 gcc-g++ 、make 、openssl 和 python 等包。gcc 的版本必须是最新的。接着从 参考资料 中给出的地址下载
+        node.js 0.4.0 版本的源代码。下载解压之后，依次在 Cygwin 中运行 ./configure 、make 和 make install 等命令进行编译和安装。安装完成之后，直接运行 node 命令就可以启动
+        node.js 提供的命令行。在命令行中可以直接输入 JavaScript 代码并运行。也可以通过 node server.js 的方式来运行一个 JavaScript 文件 server.js 。</p>
+
+    <p>代码清单 1 中的 process 表示的是当前运行的 node.js 进程，其属性 stdout 表示的是进程的标准输出流。通过 write() 方法向给流中写入一个字符串。从 代码清单 1 可以看到，使用
+        JavaScript 就可以访问标准输出流等本地系统上的资源。这从一个侧面反映出来了 node.js 的强大。</p>
+</body>
+
+</html>

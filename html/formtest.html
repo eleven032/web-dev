@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Test</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<label for="firstname"><b>First Name:</b></label>
+		<input id="firstname" type="text" placeholder="John" required>
+
+		<label for="lastname"><b>Last Name:</b></label>
+		<input id="lastname"type="text" placeholder="Smith" required><br>
+
+		<label for="male"><b>Male</b></label>
+		<input id="male" type="radio" name="sex" value="male">
+
+		<label for="female"><b>Female</b></label>
+		<input id="female" type="radio" name="sex" value="female">
+
+		<label for="other"><b>Other</b></label>
+		<input id="other" type="radio" name="sex" value="other"><br>
+
+
+		<label for="email"><b>Email:</b></label>
+		<input id="email" type="email" required placeholder="your email">
+
+		<label for="emailpass"><b>Password:</b></label>
+		<input id="emailpass" type="password" required=""><br>
+
+		<label for="birthday"><b>Birthday:</b></label>
+		<select name="month" id="birthday">
+			<option selected disabled>Month</option>
+			<option value="january">January</option>
+			<option value="february">February</option>
+			<option value="march">March</option>
+			<option value="april">April</option>
+			<option value="may">May</option>
+			<option value="june">June</option>
+			<option value="july">July</option>
+			<option value="august">August</option>
+			<option value="september">September</option>
+			<option value="october">October</option>
+			<option value="november">November</option>
+			<option value="december">December</option>
+		</select>
+		
+	</form>
+	
+</body>
+</html>
