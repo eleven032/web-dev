@@ -4,10 +4,15 @@ var squares = document.querySelectorAll(".square");
 var pickedColor = pickColor();
 var colorDisplay = document.getElementById("colorDisplay");
 var messageDisplay = document.querySelector("#message");
-
+var resetbutton = document.querySelector("#reset");
 var h1 = document.querySelector("h1");
 
 colorDisplay.textContent = pickedColor;
+
+resetbutton.addEventListener("click", function(){
+  
+})
+
 
 for (var i = 0; i < squares.length; i++) {
   // add initial colors to squares
